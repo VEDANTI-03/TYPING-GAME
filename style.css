@@ -1,7 +1,12 @@
-body body {
-  background:(Pictures/background.jpg) no-repeat center center fixed;
+ body {
+  background-image: url('images/background.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
 }
+
 
 .container {
   background-color: rgba(0, 0, 0, 0.4);
